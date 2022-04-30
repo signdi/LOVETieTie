@@ -1,14 +1,41 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/tietie/tietie",
+    "pages/message/message",
+    "pages/personal/personal",
+    "pages/Aboutus/Aboutus",
+    "pages/Friends/Friends",
+    "pages/SMSopen/SMSopen",
+    "pages/reminder/reminder",
+    "pages/tie/tie"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f2a0a1",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "#bfbfbf",
+    "selectedColor": "#f2a0a1",
+    "list": [{
+      "pagePath": "pages/tietie/tietie",
+      "text": "贴贴",
+      "iconPath": "/images/tietie.png",
+      "selectedIconPath": "/images/tietie-active.png"
+    }, {
+      "pagePath": "pages/message/message",
+      "text": "消息",
+      "iconPath": "/images/消息 (1).png",
+      "selectedIconPath": "/images/消息.png"
+    },{
+      "pagePath": "pages/personal/personal",
+      "text": "我的",
+      "iconPath": "/images/我的 (1).png",
+      "selectedIconPath": "/images/我的.png"
+    }]
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
 }

@@ -1,0 +1,24 @@
+image{
+    width: 600rpx;
+    height: 300rpx;
+    margin: 50rpx auto 0 auto;
+    display: block;
+}
+view:nth-child(2){
+    width: 112rpx;
+    height: 40rpx;
+    /* background-color: pink; */
+    font-size: 28rpx;
+    color: skyblue;
+    margin: 0 auto;
+}
+view:nth-child(3){
+    width: 365rpx;
+    height: 40rpx;
+    /* background-color: red; */
+    font-size:25rpx;
+    margin: 0 auto;
+}
+button{
+    margin-top: 100rpx;
+}

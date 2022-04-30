@@ -1,0 +1,13 @@
+<!-- 上方导航 -->
+<view style="overflow: auto;">
+    <view  bindtap="getuserinfo" style=" float: left; margin: 10rpx;  width: 85rpx; height: 85rpx;border-radius: 50%;">
+        <image style="width: 100%; height: 100%;border-radius: 50%; "   src="{{uaseheadportrait}}"></image>
+    </view>
+    <view style="display: inline-block;height: 52px;line-height: 52px; " >{{username}}贴贴❤</view>
+</view>
+<!-- 轮播图 -->
+<swiper>
+<swiper-item style="background-color: aqua;" ></swiper-item>
+<swiper-item style="background-color: rgb(37, 204, 22);" ></swiper-item>
+<swiper-item style="background-color: rgb(235, 110, 204);" ></swiper-item>
+</swiper>

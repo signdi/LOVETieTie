@@ -1,0 +1,34 @@
+<!--pages/Aboutus/Aboutus.wxml-->
+<!-- 上方部分 -->
+<view class="head">
+    <view><image src="../../images/logo.jpg" ></image></view>
+    <view>爱的贴贴</view>
+    <view>当前版本号：0.0.1</view>
+</view>
+
+<!-- 中间部分 -->
+<view class="body">
+    <view>
+        <view>意见反馈</view>
+        <view><image  src="../../images/youjiantou.png"></image></view>
+    </view>
+    <view>
+        <view>检查更新</view>
+        <view><image  src="../../images/youjiantou.png"></image></view>
+    </view>
+    <view>
+        <view>分享应用</view>
+        <view><image  src="../../images/youjiantou.png"></image></view>
+    </view>
+    <view>
+        <view>客服QQ群</view>
+        <view>1330135152</view>
+    </view>
+</view>
+
+<!-- 尾部 -->
+<view class="foots">
+    <navigator hover-class="none" >用户协议</navigator>
+    <navigator hover-class="none" >隐私政策</navigator>
+</view>
+<button >注销账户</button>

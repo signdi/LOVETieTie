@@ -1,0 +1,109 @@
+/* pages/Aboutus/Aboutus.wxss */
+page {
+    background-color: #FAFAFA;
+}
+
+.head {
+    text-align: center;
+    background-color: white;
+    margin: 30rpx;
+    overflow: hidden;
+}
+
+.head image {
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 30rpx;
+}
+
+.head>view:nth-child(1) {
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 30rpx;
+    margin: 160rpx auto 15rpx;
+}
+
+.head>view:nth-child(2) {
+    font-size: 30rpx;
+}
+
+.head>view:nth-child(3) {
+    font-size: 25rpx;
+    color: #8a8a8a;
+    margin-bottom: 140rpx;
+}
+
+.body {
+    text-align: center;
+    background-color: white;
+    margin: 40rpx;
+    overflow: hidden;
+}
+
+.body>view {
+    overflow: hidden;
+    height: 100rpx;
+}
+
+.body>view:nth-child(1) {
+    border-bottom: 4rpx solid #f4f4f4;
+}
+
+.body>view:nth-child(2) {
+    border-bottom: 4rpx solid #f4f4f4;
+}
+
+.body>view:nth-child(3) {
+    border-bottom: 4rpx solid #f4f4f4;
+}
+
+.body>view>view {
+    display: inline-block;
+    height: 100rpx;
+    line-height: 100rpx;
+}
+
+.body>view>view:nth-child(1) {
+    float: left;
+    margin-left: 40rpx;
+}
+
+.body>view>view:nth-child(2) {
+    float: right;
+    margin-right: 40rpx;
+}
+
+.body>view>view:nth-child(2)>image {
+    width: 60rpx;
+    height: 60rpx;
+    vertical-align: middle;
+}
+
+.body>view:nth-child(4)>view:nth-child(2) {
+    font-size: 28rpx;
+    color: #8a8a8a;
+}
+
+.foots {
+    display: flex;
+    justify-content: space-around;
+    margin: 60rpx auto 80rpx;
+}
+
+.foots navigator:nth-child(1) {
+    display: block;
+    color: red;
+    margin-left: 50rpx;
+}
+
+.foots navigator:nth-child(2) {
+    display: block;
+    color: red;
+    margin-right: 50rpx;
+}
+
+button {
+    background-color: #DE5B7B;
+    color: white;
+    border-radius: 40rpx;
+}
