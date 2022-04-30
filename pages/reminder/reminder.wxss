@@ -1,0 +1,18 @@
+/* pages/reminder/reminder.wxss */
+.lins {
+    height: 120rpx;
+    background-color: rgb(226, 226, 240);
+    margin: 35rpx 40rpx;
+    border-radius: 20rpx;
+    font-size: 30rpx;
+}
+.lins>view{
+    display: inline-block;
+    height: 100%;
+    line-height: 120rpx;
+    margin-left: 80rpx;
+}
+switch{
+    position: relative;
+    left: 220rpx;
+}

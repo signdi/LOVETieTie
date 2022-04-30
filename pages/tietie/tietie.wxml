@@ -1,13 +1,19 @@
 <!-- 上方导航 -->
-<view style="overflow: auto;">
-    <view  bindtap="getuserinfo" style=" float: left; margin: 10rpx;  width: 85rpx; height: 85rpx;border-radius: 50%;">
-        <image style="width: 100%; height: 100%;border-radius: 50%; "   src="{{uaseheadportrait}}"></image>
-    </view>
-    <view style="display: inline-block;height: 52px;line-height: 52px; " >{{username}}贴贴❤</view>
+<view class="upnavi">
+    <image bindtap="getuserinfoss" src="{{uaseheadportrait}}"></image>
+    <view bindtap="getuserinfoss" style="margin-left: 10rpx;" > {{ username}} 贴贴❤</view>
+    <image bindtap="share" src="/images/pengyou2.png"></image>
 </view>
-<!-- 轮播图 -->
-<swiper>
-<swiper-item style="background-color: aqua;" ></swiper-item>
-<swiper-item style="background-color: rgb(37, 204, 22);" ></swiper-item>
-<swiper-item style="background-color: rgb(235, 110, 204);" ></swiper-item>
-</swiper>
+
+<!-- 入口 -->
+<view class="body">
+<camera resolution="high" device-position="{{deviceupordown}}" ></camera>
+</view>
+<view class="biaoti">*轻触拍照 按住摄像*</view>
+
+<!-- 相机 -->
+<view class="xaingji">
+    <view bindtap="takePhoto"bindlongtap="mylongtap" bindtouchstart="mytouchstart" bindtouchend="mytouchend" hover-class="dianjiout" hover-start-time="10" hover-stay-time="40" > <image src="/images/xiangji.png"></image> </view>
+    
+    <view bindtap="device" hover-class="dianjiouts" hover-start-time="10" hover-stay-time="40" > <image src="/images/xuanz.png" ></image> </view>
+</view>

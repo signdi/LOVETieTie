@@ -1,1 +1,84 @@
 /* pages/tietie/tietie.wxss */
+.upnavi{
+    overflow: auto; 
+    /* border-bottom: 2rpx solid rgba(179, 35, 35); */
+}
+.upnavi>image:nth-child(1){
+    width: 100rpx;
+    height: 100rpx;
+    float: left;
+    margin: 10rpx 0 0 20rpx;
+    border-radius: 50%;
+}
+.upnavi>view{
+    line-height: 100rpx;
+    float: left;
+    margin: 10rpx 0;
+}
+.upnavi>image:nth-child(3){
+    width: 80rpx;
+    height: 80rpx;
+    float: right;
+    margin: 24rpx 20rpx 0 0;
+}
+.body{
+    width: 650rpx;
+    height: 650rpx;
+    /* background-color: rgb(0, 0, 0); */
+    margin: 100rpx auto 0;
+    border-radius: 40rpx;
+    border: solid  4rpx  skyblue;
+}
+camera{
+    width: 650rpx;
+    height: 650rpx;
+    border-radius: 40rpx;
+}
+.biaoti{
+    width: 240rpx;
+    height: 80rpx;
+    font-weight: 400;
+    font-size: small;
+    margin: 15rpx auto 0;
+    color: skyblue;
+}
+.xaingji{
+    position: relative;
+    margin-top: 100rpx;
+}
+.xaingji >view:nth-child(1){
+    width: 240rpx;
+    height: 120rpx;
+    background-color: #d4237a;
+    margin: 0 auto;
+    border-radius: 80rpx;
+}
+.dianjiout{
+    background-color: #f8077c!important;
+    box-shadow: 0px 0px 10rpx #e98888;
+}
+.xaingji>view:nth-child(2){
+    width: 100rpx;
+    height: 50rpx;
+    background-color: rgb(198, 137, 238);
+    border-radius: 80rpx;
+    position:absolute;
+    right: 120rpx;
+    top: 36rpx;
+}
+.dianjiouts{
+    background-color: rgb(176, 80, 240)!important;
+    box-shadow: 0px 0px 10rpx #e9a4e5;
+}
+.xaingji >view:nth-child(1)>image{
+    width: 80rpx;
+    height: 80rpx;
+    margin-left: 84rpx;
+    margin-top: 16rpx;
+}
+.xaingji >view:nth-child(2)>image{
+width: 40rpx;
+height: 40rpx;
+margin-left:30rpx;
+margin-top: 6rpx;
+}

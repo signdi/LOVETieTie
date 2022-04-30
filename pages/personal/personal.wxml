@@ -1,4 +1,56 @@
-<view style="background-color: aquamarine;width: 200rpx;height: 200rpx;border-radius: 50%;margin: 20rpx auto;" >
-<image src="{{uaseheadportrait}}"  style="width: 100%;height: 100%;border-radius: 50%;"  ></image>
+<view bindtap="getuserinfoss"  style="background-color: rgb(163, 159, 159);width: 200rpx;height: 200rpx;border-radius: 50%;margin: 40rpx auto 20rpx;">
+    <image src="{{uaseheadportrait}}" style="width: 100%;height: 100%;border-radius: 50%;"></image>
 </view>
-<view style="text-align: center;margin-top: 5rpx;" >请登录</view>
+<view bindtap="getuserinfoss" style="text-align: center;margin-top: 5rpx;">{{username}}</view>
+
+<view bindtap="HabitReminder" class="lins">
+    <view>
+        <image src="../../images/tixing.png"></image>
+    </view>
+    <view>习惯提醒</view>
+    <view>
+        <image src="../../images/come.png"></image>
+    </view>
+</view>
+<view class="lins">
+    <view>
+        <image src="../../images/guanzi.png"></image>
+    </view>
+    <view>能量罐</view>
+    <view>
+        <image src="../../images/come.png"></image>
+    </view>
+</view>
+
+<view bindtap="gotuSMSopen" class="lins">
+    <view>
+        <image src="../../images/daunxin.png"></image>
+    </view>
+    <view>短信开通记录</view>
+    <view>
+        <image src="../../images/come.png"></image>
+    </view>
+</view>
+
+<view bindtap="gotoAboutus" class="lins">
+    <view>
+        <image src="../../images/women.png"></image>
+    </view>
+    <view>关于我们</view>
+    <view>
+        <image src="../../images/come.png"></image>
+    </view>
+</view>
+<view bindtap="signout" class="lins">
+    <view>
+        <image src="../../images/tuichu.png"></image>
+    </view>
+    <view>退出登录</view>
+    <view>
+        <image src="../../images/come.png"></image>
+    </view>
+</view>
+<view class="ann">
+    <button open-type="contact">在线客服</button>
+    <button open-type="feedback">反馈建议</button>
+</view>

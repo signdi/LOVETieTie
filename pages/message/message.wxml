@@ -1,2 +1,20 @@
-<view>还没有什么消息哦~</view>
-
+<view class="lins">
+    <view>
+        <image src="https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIcBRhqN1lpk8lOtiblicTt98KqCm9UJbPqFUWGrfd1q7Rl97COfO1zJ5qBMC6tlX4RAVj5keaRmzOw/132"> </image>
+    </view>
+    <view>
+        <view>王迪</view>
+        <view>宝宝你在干嘛呀</view>
+        <view>晚上8:20</view>
+    </view>
+</view>
+<view class="lins">
+    <view>
+        <image src="https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIcBRhqN1lpk8lOtiblicTt98KqCm9UJbPqFUWGrfd1q7Rl97COfO1zJ5qBMC6tlX4RAVj5keaRmzOw/132"> </image>
+    </view>
+    <view>
+        <view>王迪</view>
+        <view>我好想你ya</view>
+        <view>晚上8:20</view>
+    </view>
+</view>

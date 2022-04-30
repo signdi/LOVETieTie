@@ -1,0 +1,7 @@
+/* pages/SMSopen/SMSopen.wxss */
+view{
+    width: 750rpx;
+    /* background-color: pink; */
+    text-align: center;
+    margin-top: 500rpx;
+}

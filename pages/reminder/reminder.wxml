@@ -1,0 +1,13 @@
+<!-- 习惯提醒 -->
+<view   class="lins">
+    <view>开启习惯提醒</view>
+    <switch color="pink" ></switch>
+</view>
+<view class="lins">
+    <view>开启打卡声音</view>
+    <switch color="pink"></switch>
+</view>
+<view class="lins">
+    <view>开启背景音乐</view>
+    <switch checked="true"  color="pink"></switch>
+</view>

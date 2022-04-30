@@ -1,0 +1,21 @@
+<!-- 展示框 -->
+
+<view class="album">
+</view>
+
+<!-- 下方功能按钮 -->
+<view class="domain">
+
+    <view bindtap="gotoPrevious" hover-class="dianjiout1" hover-start-time="10" hover-stay-time="40">
+        <image src="/images/cuowu.png"></image>
+    </view>
+
+    <view hover-class="dianjiout2" hover-start-time="10" hover-stay-time="40">
+        <image src="/images/send.png"></image>
+    </view>
+
+    <view hover-class="dianjiout3" hover-start-time="10" hover-stay-time="40">
+        <image src="/images/xiajiantou.png"></image>
+    </view>
+
+</view>
