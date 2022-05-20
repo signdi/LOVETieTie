@@ -1,0 +1,29 @@
+page {
+    background-color: #EDEDED;
+}
+
+view:nth-child(1) {
+    margin: 20rpx 20rpx 10rpx;
+    background-color: #fff;
+    height: 60rpx;
+    border-radius: 20rpx;
+    text-align: center;
+    line-height: 60rpx;
+    color: #969696;
+}
+view:nth-child(1) >image{
+    width: 40rpx;
+    height: 40rpx;
+    position: relative;
+    left: -11rpx;
+    bottom: -7rpx;
+}
+view:nth-child(2){
+    font-size: small;
+    height: 60rpx;
+    line-height: 60rpx;
+    color: #252525;
+}
+.dianjiout{
+    background-color:#6b6a6a !important;
+}

@@ -1,19 +1,25 @@
 <!-- 上方导航 -->
 <view class="upnavi">
     <image bindtap="getuserinfoss" src="{{uaseheadportrait}}"></image>
-    <view bindtap="getuserinfoss" style="margin-left: 10rpx;" > {{ username}} 贴贴❤</view>
+    <view bindtap="getuserinfoss" style="margin-left: 10rpx;"> {{ username}}</view>
+    <view>贴贴❤</view>
     <image bindtap="share" src="/images/pengyou2.png"></image>
+    <view>寻找闺蜜</view>
 </view>
 
 <!-- 入口 -->
 <view class="body">
-<camera resolution="high" device-position="{{deviceupordown}}" ></camera>
+    <camera resolution="high" device-position="{{deviceupordown}}"></camera>
 </view>
 <view class="biaoti">*轻触拍照 按住摄像*</view>
 
 <!-- 相机 -->
 <view class="xaingji">
-    <view bindtap="takePhoto"bindlongtap="mylongtap" bindtouchstart="mytouchstart" bindtouchend="mytouchend" hover-class="dianjiout" hover-start-time="10" hover-stay-time="40" > <image src="/images/xiangji.png"></image> </view>
-    
-    <view bindtap="device" hover-class="dianjiouts" hover-start-time="10" hover-stay-time="40" > <image src="/images/xuanz.png" ></image> </view>
+    <view bindtouchstart="handleTouchStart" bindtouchend="handleTouchEnd" bindlongpress="handleLongPress" bindtap="handleClick" hover-class="dianjiout" hover-start-time="10" hover-stay-time="40">
+        <image src="/images/xiangji.png"></image>
+    </view> 
+
+    <view bindtap="device" hover-class="dianjiouts" hover-start-time="10" hover-stay-time="40">
+        <image src="/images/xuanz.png"></image>
+    </view>
 </view>

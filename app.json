@@ -7,7 +7,10 @@
     "pages/Friends/Friends",
     "pages/SMSopen/SMSopen",
     "pages/reminder/reminder",
-    "pages/tie/tie"
+    "pages/tie/tie",
+    "pages/energytank/energytank",
+    "pages/newFriends/newFriends",
+    "pages/photo/photo"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,7 +1,11 @@
 <!-- 展示框 -->
 
 <view class="album">
+    <image wx:if="{{imageSrc}}" src="{{imageSrc}}"></image>
+    <video wx:if="{{videoSrc}}" src="{{videoSrc}}" autoplay loop show-mute-btn muted></video>
 </view>
+
+<input bindinput="handmge"  placeholder="给Ta留言" value="{{messgas}}"></input>
 
 <!-- 下方功能按钮 -->
 <view class="domain">
@@ -10,11 +14,12 @@
         <image src="/images/cuowu.png"></image>
     </view>
 
-    <view hover-class="dianjiout2" hover-start-time="10" hover-stay-time="40">
+    <view bindtap="shareFriends" hover-class="dianjiout2" hover-start-time="10" hover-stay-time="40">
         <image src="/images/send.png"></image>
+        <button open-type="share" style="width: 190rpx; height: 81rpx; display: block; box-sizing: border-box; left: 281rpx; top: 20rpx; position: absolute"></button>
     </view>
 
-    <view hover-class="dianjiout3" hover-start-time="10" hover-stay-time="40">
+    <view bindtap="saveToPhone" hover-class="dianjiout3" hover-start-time="10" hover-stay-time="40">
         <image src="/images/xiajiantou.png"></image>
     </view>
 

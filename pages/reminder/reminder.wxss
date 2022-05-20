@@ -5,6 +5,7 @@
     margin: 35rpx 40rpx;
     border-radius: 20rpx;
     font-size: 30rpx;
+    position: relative;
 }
 .lins>view{
     display: inline-block;
@@ -13,6 +14,7 @@
     margin-left: 80rpx;
 }
 switch{
-    position: relative;
-    left: 220rpx;
+    position: absolute;
+    right: 65rpx;
+    top: 27rpx;
 }

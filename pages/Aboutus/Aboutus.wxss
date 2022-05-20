@@ -79,6 +79,14 @@ page {
     vertical-align: middle;
 }
 
+.body>view>button{
+    background-color: rgba(250, 250, 250, 0);
+    position: absolute;
+    display: block;
+    width: 667rpx;
+    height: 99rpx;
+}
+
 .body>view:nth-child(4)>view:nth-child(2) {
     font-size: 28rpx;
     color: #8a8a8a;
@@ -102,7 +110,7 @@ page {
     margin-right: 50rpx;
 }
 
-button {
+.tuichubutton {
     background-color: #DE5B7B;
     color: white;
     border-radius: 40rpx;

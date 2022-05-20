@@ -1,0 +1,2 @@
+<view  hover-class="dianjiout" hover-start-time="10" hover-stay-time="150"><image src="../../images/soushuo1.png"></image>账号/微信号</view>
+<view>搜索微信号，或者直接分享小程序给好友，以添加更多好友。</view>

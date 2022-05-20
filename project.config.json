@@ -9,6 +9,7 @@
         ],
         "include": []
     },
+    "cloudfunctionRoot": "cloudFunctions/",
     "setting": {
         "urlCheck": false,
         "es6": true,

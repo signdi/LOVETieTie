@@ -1,0 +1,16 @@
+<!-- 展示框 -->
+
+<view class="album">
+    <image wx:if="{{imageSrc}}" src="{{imageSrc}}"></image>
+    <video wx:if="{{videoSrc}}" src="{{videoSrc}}" autoplay loop show-mute-btn muted></video>
+</view>
+
+<!-- <input bindinput="handmge"  placeholder="输入贴贴" value="{{messgas}}"></input> -->
+<view class="texe">{{messgas}}</view>
+
+<!-- 下方功能按钮 -->
+<view class="domain">
+    <view bindtap="saveToPhone" hover-class="dianjiout" hover-start-time="10" hover-stay-time="40">
+        <image src="/images/xiajiantou.png"></image>
+    </view>
+</view>

@@ -1,0 +1,21 @@
+<swiper autoplay  circular style="height: 1300rpx;">
+    <swiper-item>
+        <view class="bodys">
+            <image src="cloud://wangdi-users-1g3wyjfy571b1140.7761-wangdi-users-1g3wyjfy571b1140-1311648867/images/fengjing2.jpeg"></image>
+            <view>你卑微的请求只会换来对方的自豪感和自己的无能为力，挽留一个想走的人，不如把自己变成一个值得爱的人。</view>
+        </view>
+    </swiper-item>
+    
+    <swiper-item>
+        <view class="bodys">
+            <image src="cloud://wangdi-users-1g3wyjfy571b1140.7761-wangdi-users-1g3wyjfy571b1140-1311648867/images/fengjing1.jpeg"></image>
+            <view>生活总得有点盼头，可以是一部电影、电视剧，或者一件在路上的快递，一个喜欢的人，这样子，生活好像就没那么糟了。</view>
+        </view>
+    </swiper-item>
+    <swiper-item>
+        <view class="bodys">
+            <image src="cloud://wangdi-users-1g3wyjfy571b1140.7761-wangdi-users-1g3wyjfy571b1140-1311648867/images/fengjing.jpeg"></image>
+            <view>最好的时光，是一个人坐在某处安安静静读书的时候，就像最美妙的孤独，是一个人坐在街边长凳不为任何人等候。</view>
+        </view>
+    </swiper-item>
+</swiper>

@@ -45,10 +45,3 @@
     margin-right: 40rpx;
     width: 300rpx;
 }
-button{
-    color: rgb(166, 125, 190);
-    /* font-size: 12rpx; 字体大小 */
-    font-weight: 400;
-    background:   rgb(226, 226, 240);
-     border-radius: 60px; /*边框圆角*/
-}

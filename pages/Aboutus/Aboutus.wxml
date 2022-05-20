@@ -1,9 +1,9 @@
 <!--pages/Aboutus/Aboutus.wxml-->
 <!-- 上方部分 -->
 <view class="head">
-    <view><image src="../../images/logo.jpg" ></image></view>
+    <view><image src="cloud://wangdi-users-1g3wyjfy571b1140.7761-wangdi-users-1g3wyjfy571b1140-1311648867/images/logo.jpg" ></image></view>
     <view>爱的贴贴</view>
-    <view>当前版本号：0.0.1</view>
+    <view>当前版本号：1.0.1</view>
 </view>
 
 <!-- 中间部分 -->
@@ -11,18 +11,20 @@
     <view>
         <view>意见反馈</view>
         <view><image  src="../../images/youjiantou.png"></image></view>
+        <button open-type="feedback" ></button>
     </view>
-    <view>
+    <view bindtap="showMyToast">
         <view>检查更新</view>
         <view><image  src="../../images/youjiantou.png"></image></view>
     </view>
     <view>
         <view>分享应用</view>
         <view><image  src="../../images/youjiantou.png"></image></view>
+        <button open-type="share"></button>
     </view>
     <view>
-        <view>客服QQ群</view>
-        <view>1330135152</view>
+        <view>客服Q Q</view>
+        <view><text>1330135152</text></view>
     </view>
 </view>
 
@@ -31,4 +33,4 @@
     <navigator hover-class="none" >用户协议</navigator>
     <navigator hover-class="none" >隐私政策</navigator>
 </view>
-<button >注销账户</button>
+<!-- <button class="tuichubutton" >注销账户</button> -->

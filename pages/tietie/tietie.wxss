@@ -1,7 +1,5 @@
-/* pages/tietie/tietie.wxss */
 .upnavi{
     overflow: auto; 
-    /* border-bottom: 2rpx solid rgba(179, 35, 35); */
 }
 .upnavi>image:nth-child(1){
     width: 100rpx;
@@ -10,21 +8,35 @@
     margin: 10rpx 0 0 20rpx;
     border-radius: 50%;
 }
-.upnavi>view{
+.upnavi>view:nth-child(2){
+    color: rgb(65, 64, 63);
+    font-size: 30rpx;
     line-height: 100rpx;
     float: left;
     margin: 10rpx 0;
 }
-.upnavi>image:nth-child(3){
-    width: 80rpx;
-    height: 80rpx;
+.upnavi>view:nth-child(3){
+    line-height: 100rpx;
+    float: left;
+    margin: 10rpx 10rpx;
+}
+.upnavi>image:nth-child(4){
+    width: 70rpx;
+    height: 70rpx;
     float: right;
     margin: 24rpx 20rpx 0 0;
+}
+.upnavi>view:nth-child(5){
+    position: absolute;
+    right: 18rpx;
+    top: 80rpx;
+    font-size: x-small;
+    color: rgb(192, 183, 174);
 }
 .body{
     width: 650rpx;
     height: 650rpx;
-    /* background-color: rgb(0, 0, 0); */
+    background-color: rgb(0, 0, 0);
     margin: 100rpx auto 0;
     border-radius: 40rpx;
     border: solid  4rpx  skyblue;

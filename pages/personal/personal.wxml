@@ -1,4 +1,4 @@
-<view bindtap="getuserinfoss"  style="background-color: rgb(163, 159, 159);width: 200rpx;height: 200rpx;border-radius: 50%;margin: 40rpx auto 20rpx;">
+<view bindtap="getuserinfoss" style="width: 200rpx;height: 200rpx;border-radius: 50%;margin: 40rpx auto 20rpx;">
     <image src="{{uaseheadportrait}}" style="width: 100%;height: 100%;border-radius: 50%;"></image>
 </view>
 <view bindtap="getuserinfoss" style="text-align: center;margin-top: 5rpx;">{{username}}</view>
@@ -12,7 +12,8 @@
         <image src="../../images/come.png"></image>
     </view>
 </view>
-<view class="lins">
+
+<view bindtap="energyTank" class="lins">
     <view>
         <image src="../../images/guanzi.png"></image>
     </view>
@@ -41,6 +42,29 @@
         <image src="../../images/come.png"></image>
     </view>
 </view>
+
+<view class="lins">
+    <view>
+        <image src="../../images/fankui.png"></image>
+    </view>
+    <view>反馈建议</view>
+    <view>
+        <image src="../../images/come.png"></image>
+    </view>
+    <button open-type="feedback" style="position: relative; left: 4rpx; top: -106rpx; width: 636rpx; height: 91rpx; display: block; box-sizing: border-box; background-color: rgba(255, 255, 255, 0)"></button>
+</view>
+
+<view class="lins">
+    <view>
+        <image src="../../images/fefu.png"></image>
+    </view>
+    <view>在线客服</view>
+    <view>
+        <image src="../../images/come.png"></image>
+    </view>
+    <button open-type="contact" style="position: relative; left: 2rpx; top: -104rpx; width: 649rpx; height: 95rpx; display: block; box-sizing: border-box; background-color: rgba(255, 255, 255, 0)"></button>
+</view>
+
 <view bindtap="signout" class="lins">
     <view>
         <image src="../../images/tuichu.png"></image>
@@ -49,8 +73,4 @@
     <view>
         <image src="../../images/come.png"></image>
     </view>
-</view>
-<view class="ann">
-    <button open-type="contact">在线客服</button>
-    <button open-type="feedback">反馈建议</button>
 </view>
