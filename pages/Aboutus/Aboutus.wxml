@@ -34,3 +34,7 @@
     <navigator hover-class="none" >隐私政策</navigator>
 </view>
 <!-- <button class="tuichubutton" >注销账户</button> -->
+
+<view class="ad">
+<ad unit-id="adunit-dbbb12309bdfe2fa" ad-intervals="30"></ad>
+</view>

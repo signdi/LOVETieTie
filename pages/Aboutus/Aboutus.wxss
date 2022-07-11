@@ -115,3 +115,8 @@ page {
     color: white;
     border-radius: 40rpx;
 }
+.ad{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

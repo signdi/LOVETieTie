@@ -11,3 +11,7 @@
     <view>启动时播放背景音乐</view>
     <switch bindchange="handleChangeSwitch" checked="{{backgroundMusic}}"  color="pink"></switch>
 </view>
+
+<view class="ad">
+<ad unit-id="adunit-f5b1908f2fb28377" ad-intervals="30"></ad>
+</view>

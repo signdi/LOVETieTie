@@ -1,4 +1,5 @@
 // pages/SMSopen/SMSopen.js
+let interstitialAd = null
 Page({
 
     /**
@@ -12,7 +13,21 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+        if (wx.createInterstitialAd) {
+            interstitialAd = wx.createInterstitialAd({
+                adUnitId: 'adunit-804991140a092259'
+            })
+            interstitialAd.onLoad(() => {})
+            interstitialAd.onError((err) => {})
+            interstitialAd.onClose(() => {})
+        }
+        setTimeout(function () {
+            if (interstitialAd) {
+                interstitialAd.show().catch((err) => {
+                    console.error(err)
+                })
+            }
+        }, 1000)
     },
 
     /**

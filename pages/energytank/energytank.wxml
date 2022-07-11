@@ -19,3 +19,6 @@
         </view>
     </swiper-item>
 </swiper>
+<view class="ad">
+<ad unit-id="adunit-aa01039a579abf7b" ad-intervals="30"></ad>
+</view>

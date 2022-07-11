@@ -1,4 +1,8 @@
 <image src='https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2Fa3c1f7956e9324d3ebb5e4e8b2ed8d30f7b1382b.png&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1653404671&t=7eec0528f63e360139c524abdcb8de67' ></image>
 <view>邀请密友</view>
 <view>还可添加5人，分享口令即可添加</view>
-<button  open-type="share" >点击分享</button>
+<button open-type="share" >点击分享</button>
+
+<view class="ad">
+<ad unit-id="adunit-f627e50527aa4334" ad-intervals="30"></ad>
+</view>

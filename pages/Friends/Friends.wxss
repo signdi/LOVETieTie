@@ -22,3 +22,8 @@ view:nth-child(3){
 button{
     margin-top: 100rpx;
 }
+.ad{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

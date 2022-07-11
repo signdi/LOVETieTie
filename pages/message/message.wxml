@@ -20,6 +20,9 @@
 
 <button open-type="contact" style="background-color: rgba(132, 167, 167, 0); width: 712rpx; height: 95rpx; display: block; box-sizing: border-box; left: 2rpx; top: -114rpx; position: relative"></button>
 
+<view class="ad">
+<ad unit-id="adunit-ef74eb1176a215e3" ad-intervals="30"></ad>
+</view>
 <!-- <view class="lins">
     <view>
         <image src="https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIcBRhqN1lpk8lOtiblicTt98KqCm9UJbPqFUWGrfd1q7Rl97COfO1zJ5qBMC6tlX4RAVj5keaRmzOw/132"> </image>

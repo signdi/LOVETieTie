@@ -5,9 +5,9 @@
 
 <view bindtap="HabitReminder" class="lins">
     <view>
-        <image src="../../images/tixing.png"></image>
+        <image src="../../images/shezhi1.png"></image>
     </view>
-    <view>习惯提醒</view>
+    <view>设置</view>
     <view>
         <image src="../../images/come.png"></image>
     </view>

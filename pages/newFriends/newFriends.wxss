@@ -27,3 +27,8 @@ view:nth-child(2){
 .dianjiout{
     background-color:#6b6a6a !important;
 }
+.ad{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

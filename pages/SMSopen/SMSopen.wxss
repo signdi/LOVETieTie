@@ -5,3 +5,8 @@ view{
     text-align: center;
     margin-top: 500rpx;
 }
+.ad{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

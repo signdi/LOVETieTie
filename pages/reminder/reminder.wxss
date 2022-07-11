@@ -18,3 +18,8 @@ switch{
     right: 65rpx;
     top: 27rpx;
 }
+.ad{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
